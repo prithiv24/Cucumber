@@ -1,0 +1,121 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-30T12:20:25.798Z",
+        "line": 2,
+        "name": "To register in demoqa website",
+        "description": "",
+        "id": "demoqa-registration;to-register-in-demoqa-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8684273100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on demoqa webpage",
+            "match": {
+              "location": "DemoQaStepDefinition.user_is_on_demoqa_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy15.sendKeys(Unknown Source)\r\n\tat org.demo.demoBaseClass.sendText(demoBaseClass.java:38)\r\n\tat org.demo.DemoQaStepDefinition.user_enter_his_firstName_and_lastName(DemoQaStepDefinition.java:24)\r\n\tat ✽.User enter his firstName and lastName(file:/C:/Users/Prithiv/eclipse-workspace/Cucumber/demo.feature:4)\r\n",
+              "duration": 9083090900,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User enter his firstName and lastName",
+            "match": {
+              "location": "DemoQaStepDefinition.user_enter_his_firstName_and_lastName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 470601,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User enter his Email in text box",
+            "match": {
+              "location": "DemoQaStepDefinition.user_enter_his_Email_in_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 974099,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User enter His Mobile number in text box",
+            "match": {
+              "location": "DemoQaStepDefinition.user_enter_His_Mobile_number_in_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 632500,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User have to select is Country from the given dropDown box",
+            "match": {
+              "location": "DemoQaStepDefinition.user_have_to_select_is_Country_from_the_given_dropDown_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 347699,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User have to enter his City in text box",
+            "match": {
+              "location": "DemoQaStepDefinition.user_have_to_enter_his_City_in_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 345499,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User have an optional to enter any message in text box if required",
+            "match": {
+              "location": "DemoQaStepDefinition.user_have_an_optional_to_enter_any_message_in_text_box_if_required()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 364400,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User clicks send button to submit his details",
+            "match": {
+              "location": "DemoQaStepDefinition.user_clicks_send_button_to_submit_his_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Demoqa registration",
+    "description": "",
+    "id": "demoqa-registration",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/Prithiv/eclipse-workspace/Cucumber/demo.feature",
+    "tags": []
+  }
+]
